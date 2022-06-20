@@ -18,6 +18,12 @@ public class OrderController {
     @Value("${server.port}")
     private String port;
 
+    @RequestMapping("/hello")
+    public String hello() {
+        System.out.println("hello");
+        return "hello";
+    }
+
     @RequestMapping("/order/docker")
     public String helloDocker() {
         return "hello docker" + "\t" + port + "\t" + UUID.randomUUID().toString();
