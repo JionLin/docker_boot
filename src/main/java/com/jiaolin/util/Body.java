@@ -32,8 +32,8 @@ public class Body {
         method2();
     }
 
-    public static final String PASSWORD ="670b14728ad9902aecba32e22fa4f6bd";
-    public static final String SYS_CODE ="cdc_test";
+    public static final String PASSWORD ="xx";
+    public static final String SYS_CODE ="xx";
 
 
 
